@@ -13,7 +13,7 @@ class DynamicArray:
     def set(self, i: int, n: int) -> None:
         self.arr[i] = n
 
-    # O(1) - Avg case / Ammortized
+    # O(1) - Avg case / Amortized
     def pushback(self, n: int) -> None:
         if self.size == self.capacity:
             self.resize()
